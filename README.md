@@ -1,16 +1,68 @@
-# todo_task_app
+# ✅ ToDo Task App
 
-A new Flutter project.
+A clean and modern task management app built with **Flutter**. It supports full CRUD operations for tasks, local session storage, Google Sign-In, and a responsive user interface for both web and mobile.
 
-## Getting Started
+Deployed live via **GitHub Pages**.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🔗 Live Demo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+👉 [View Web App](https://22csa29.github.io/todo_task_app/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📱 Features
+
+- ✅ **Create, Read, Update, Delete** tasks (CRUD)
+- 🏷️ Task fields:
+  - Title
+  - Description
+  - Due date
+  - Status (Open / Completed)
+- 📦 Local state management (for session)
+- 🧠 Google Sign-In authentication
+- 🗂️ Organized with tabs: Open Tasks / Completed Tasks
+- 🔍 Filter & Search support (optional)
+- 🔄 Pull-to-refresh to reload lists
+- 🧹 Swipe to delete tasks
+- 💡 "No data" states for better UX
+- 🎨 Smooth animations on task updates
+- 📦 Firebase crash reporting integration (optional)
+
+---
+
+## 🚀 Tech Stack
+
+| Technology       | Usage                         |
+|------------------|-------------------------------|
+| Flutter          | UI framework                  |
+| Dart             | Programming language          |
+| Firebase         | Auth / Crashlytics (optional) |
+| GitHub Pages     | Web deployment                |
+| Git + GitHub     | Version control               |
+
+---
+
+## 🖼️ Screenshots
+
+<!-- You can add screenshots here -->
+<!-- Upload screenshots to your repo and reference like this: -->
+<!-- ![Screenshot](screenshots/homepage.png) -->
+
+---
+
+## 🛠️ How to Run Locally
+
+Make sure you have Flutter SDK installed. Then run:
+
+```bash
+git clone https://github.com/22csa29/todo_task_app.git
+cd todo_task_app
+flutter pub get
+flutter run -d chrome
+
+
+
+
+https://22csa29.github.io/todo_task_app/
