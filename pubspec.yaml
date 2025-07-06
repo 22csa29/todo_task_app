@@ -1,0 +1,36 @@
+name: todo_task_app
+description: A new Flutter project.
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI Icons
+  cupertino_icons: ^1.0.8
+
+  # Firebase Core & Auth
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.20.0
+
+  # Google Sign-In (Downgraded for flutterfire_ui compatibility)
+  google_sign_in: ^5.4.4
+
+  # Firestore (for storing tasks)
+  cloud_firestore: ^4.16.0
+
+  # Firebase UI (used for auth UI)
+  flutterfire_ui: ^0.4.3+20
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
